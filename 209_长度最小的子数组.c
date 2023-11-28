@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 #include <math.h>
-
+//滑动窗口
 int minSubArrayLen(int target, int *nums, int numsSize)
 {
   int start = 0, end = 0, sum = 0, minLen = INT_MAX;
