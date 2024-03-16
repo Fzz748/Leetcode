@@ -83,3 +83,14 @@ int main() {
 
     return 0;
 }
+
+#define Chinese 0
+
+int a = 3;
+
+#if (Chinese || a)
+    //中文代码
+#else
+    //其他代码
+
+#endif
