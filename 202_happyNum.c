@@ -23,13 +23,13 @@ bool is_happy(int n) {
 
 int main() {
     int num;
-    printf("请输入一个整数: ");
+    printf("?????????????: ");
     scanf("%d", &num);
 
     if (is_happy(num)) {
-        printf("%d 是快乐数\n", num);
+        printf("%d ???????\n", num);
     } else {
-        printf("%d 不是快乐数\n", num);
+        printf("%d ?????????\n", num);
     }
 
     return 0;
